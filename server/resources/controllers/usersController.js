@@ -120,14 +120,14 @@ exports.createUser = function(req, res) {
  */
 exports.oauthSuccess = function(req, res) {
   // console.log('oauthSuccess req.body---------', req.body);
-  // console.log('req-------------------------->', req.user.id);
+  console.log('req-------------------------->', req.user);
   if (!req.user) { return res.status(404).send({ message: 'Login failed' }); }
   const user = req.user;
   const token = req.user.id;
 
   exports.createUser(req);
 
-  return res.redirect(`/oauthSuccess?token=${token}&username=${user.id}`);
+  return res.redirect(`/oauthSuccess?token=${token}&username=${user.id}&fb_name=${user.displayName}`);
 }
 
 

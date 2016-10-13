@@ -127,7 +127,7 @@ exports.oauthSuccess = function(req, res) {
 
   exports.createUser(req);
 
-  return res.redirect(`/oauthSuccess?token=${token}&username=${user.id}&fb_name=${user.displayName}`);
+  return res.redirect(`/oauthSuccess?token=${token}&username=${user.id}`);
 }
 
 

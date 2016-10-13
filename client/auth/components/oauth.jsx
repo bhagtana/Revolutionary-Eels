@@ -6,7 +6,7 @@ const OAuthSuccess = (props) => {
 	console.log('props-------------->', props.location.query);
   if (props.location.query.token) {
     // //id = Number(id);
-    const user = props.location.query.fb_name;
+    const user = props.location.query.username;
     localStorage.setItem('userToken', props.location.query.token);
     localStorage.setItem('user', JSON.stringify(user));
   }

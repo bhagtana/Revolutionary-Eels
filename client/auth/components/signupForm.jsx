@@ -56,7 +56,7 @@ class SignupForm extends React.Component {
 	render() {
 		const {errors} = this.state;
 		return (
-			<div class="main-login main-center"> 
+			<div className="main-login main-center"> 
 			<form className="form-horizontal" 
 				method="post" 
 				action="#"
@@ -64,7 +64,7 @@ class SignupForm extends React.Component {
 				onSubmit={this.onSubmit}>
 
 
-				<div className="form-group" >
+				<div className="form-group1" >
 					<label for="name" 
 						className="cols-sm-2 control-label">Firstname</label>
 					<div className="cols-sm-10">
@@ -87,13 +87,13 @@ class SignupForm extends React.Component {
 				</div>
 
 							
-				<div className="form-group">
+				<div className="form-group1">
 					<label for="email" 
 						className="cols-sm-2 control-label">Lastname</label>
-					<div class="cols-sm-10">
-						<div class="input-group">
-							<span class="input-group-addon">
-							<i class="fa fa-user fa" 
+					<div className="cols-sm-10">
+						<div className="input-group">
+							<span className="input-group-addon">
+							<i className="fa fa-user fa" 
 								aria-hidden="true">
 							</i></span>
 							<input 
@@ -108,13 +108,13 @@ class SignupForm extends React.Component {
 					</div>
 				</div>
 
-				<div className="form-group">
+				<div className="form-group1">
 					<label for="username" 
 						className="cols-sm-2 control-label">Username</label>
-					<div class="cols-sm-10">
-						<div class="input-group">
-							<span class="input-group-addon">
-							<i class="fa fa-users fa" 
+					<div className="cols-sm-10">
+						<div className="input-group">
+							<span className="input-group-addon">
+							<i className="fa fa-users fa" 
 								aria-hidden="true">
 							</i></span>
 							<input 
@@ -129,7 +129,7 @@ class SignupForm extends React.Component {
 					</div>
 				</div>
 
-				<div className="form-group">
+				<div className="form-group1">
 					<label for="email" 
 						className="cols-sm-2 control-label">Email</label>
 					<div className="cols-sm-10">
@@ -150,7 +150,7 @@ class SignupForm extends React.Component {
 					</div>
 				</div>
 
-				<div className="form-group">
+				<div className="form-group1">
 					<label for="email" 
 						className="cols-sm-2 control-label">Password</label>
 					<div className="cols-sm-10">
@@ -174,16 +174,16 @@ class SignupForm extends React.Component {
 				</div>
 	
 
-				<div className="form-group">
+				<div className="form-group1">
 					<button type="button" className="btn btn-primary btn-lg
 					 btn-block login-button">
 					 Register
 					</button>
 				</div>
-				<div className="form-group">
+				<div className="form-group1">
 		          Already have an account? <Link to="/login">Sign in</Link>
 		        </div>
-		        <div className="form-group">
+		        <div className="form-group1">
 		          <a className="btn btn-primary btn-lg btn-block login-button" href="/auth/facebook">Sign Up With Facebook</a>
 		        </div>
 			</form>

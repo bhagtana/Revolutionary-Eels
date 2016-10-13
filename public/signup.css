@@ -2,14 +2,14 @@
   SIGNUP
 */
 
-body, html{
+/*body, html{
      height: 100%;
   background-repeat: no-repeat;
   background-color: #d3d3d3;
   font-family: 'Oxygen', sans-serif;
-}
+}*/
 
-.main{
+.main1{
   margin-top: 1px;
 }
 
@@ -24,7 +24,7 @@ hr{
   color: #fff;
 }
 
-.form-group{
+.form-group1{
   margin-bottom: 10px;
 }
 

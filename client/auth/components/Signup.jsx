@@ -15,9 +15,9 @@ class Signup extends React.Component {
 		const {userSignupRequest, addFlashMessage} = this.props;
 		return (
 		  <div className="container">
-			  <div className="row main">
-			  	<div class="panel-title text-center">
-               		<h1 class="title">Col-Lab</h1>
+			  <div className="row main1">
+			  	<div className="panel-title text-center">
+               		<h1 className="title">Col-Lab</h1>
                		<hr />
                	</div>
 		        <div className="col-md-4 col-md-offset-4">
